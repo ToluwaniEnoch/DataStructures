@@ -12,17 +12,17 @@ public class DailyTemperature {
 
     private static int[] dailyTemperatureCalc(int[] temperatures) {
         int[] result = new int[temperatures.length];
-
+        //System.out.println(result);
         Stack<Integer> stack = new Stack<>();
         Map<Integer, Integer> map = new Hashtable<>();
-        for (int i=0; i<temperatures.length; i++){
+        for (int i=0; i<temperatures.length-1; i++){
             stack.push(i);
             if(map.isEmpty() || map.get(map.size()-1) <= temperatures[i]){
                 map.put(i, temperatures[i]);
             }
         }
 
-        for(int i= result.length -1; i>0; i--){
+        for(int i= result.length-1; i>0; i--){
             if(stack.peek() - map.get(map.size()-1) < 0){
                 //result[i] = map.();
             }else{

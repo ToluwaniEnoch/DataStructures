@@ -6,6 +6,7 @@ public class CloneGraph {
     public static void main(String[] args) {
         GNode node = new GNode(3);
         System.out.println(cloneGraphs(node));
+        Map<Integer, List<Integer>> map = new HashMap<>();
     }
 
     private static GNode cloneGraphs(GNode node) {

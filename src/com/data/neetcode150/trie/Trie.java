@@ -1,9 +1,6 @@
 package com.data.neetcode150.trie;
 
 public class Trie {
-    public static void main(String[] args) {
-
-    }
     private Node root;
 
     public Trie() {

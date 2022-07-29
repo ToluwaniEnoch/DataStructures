@@ -9,16 +9,24 @@ public class QuickTest {
         //Map<Integer, int[]> = new HashMap<>();
         //Map<Integer, Integer> map = new HashMap<>();
         Set<Integer> set = new HashSet<>();
+        set.contains(1);
         set.clear();
         set.size();
-        Map<String, List<String>> map = new HashMap<>();
+        Map<String, Integer> map = new HashMap<>();
+        map.containsKey("");
+        Collection<Integer> values = map.values();
 
-//
+        char c = '0';
+        int numericValue = Character.getNumericValue(c);
+        //
 //        PriorityQueue<Double> priorityQueue = new PriorityQueue<Double>();
         //tryHere();
         String paragraph = "Bob hit a ball, the hit BALL flew far after it was hit.";
         String[] banned = {"hit"};
         mostCommonWord(paragraph, banned);
+
+        //Return key by max element in map
+        String key = Collections.max(map.entrySet(), Map.Entry.comparingByValue()).getKey();
     }
     public static List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
@@ -41,7 +49,4 @@ public class QuickTest {
     }
 
 }
-/*
-Return key by max element in map
-Collections.max(map.entrySet(), map.Entry.comparingByValue()).getKey();
- */
+

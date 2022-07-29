@@ -11,9 +11,9 @@ public class howSum {
         
     }
 
-    public static List<Integer> howSumTable(int target, int[] numbers){
-        
-    }
+//    public static List<Integer> howSumTable(int target, int[] numbers){
+//
+//    }
     /*public static List<Integer> howSumMemoization(int target, int[] numbers){
         List<Integer> result  = new ArrayList<>();
 

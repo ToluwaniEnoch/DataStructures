@@ -1,5 +1,6 @@
 package com.data.neetcode150.slidingWindow;
 
+import java.util.HashMap;
 import java.util.Hashtable;
 
 public class PermutationInString {
@@ -7,6 +8,7 @@ public class PermutationInString {
 
         //System.out.println(permutationInString("ab", "eidbaoo"));
         System.out.println(permutationInString("adc", "dcda"));
+        System.out.println(permutationInString("ab", "eidboaoo"));
     }
 
     private static boolean permutationInString(String first, String second) {

@@ -9,8 +9,8 @@ public class Subsets {
     static List<List<Integer>> result = new ArrayList<>();
     static int[] numbers;
     public static void main(String[] args) {
-        int[] nums = {1,2,2};
-        System.out.println(returnSubsets(nums));
+        int[] nums = {1,2,3};
+        //System.out.println(returnSubsets(nums));
         System.out.println(subsets(nums));
     }
 
@@ -33,6 +33,10 @@ public class Subsets {
         current.remove(current.size()-1);
         permute(index+1, nums, current, answer);
     }
+
+
+
+
 
     public static List<List<Integer>> returnSubsets(int[] nums) {
         //result.clear();

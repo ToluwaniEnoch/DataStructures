@@ -15,6 +15,7 @@ public class RottingOranges {
         Set<int[]> fresh = new HashSet<>();
         Set<int[]> rotten = new HashSet<>();
 
+        //get rotten and fresh orange locations
         for(int i=0; i<grid.length; i++){
             for (int j=0; j<grid[i].length; j++){
                 int cell = grid[i][j];

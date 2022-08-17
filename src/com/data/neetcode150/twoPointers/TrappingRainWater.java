@@ -7,10 +7,34 @@ public class TrappingRainWater {
     }
 
     private static int trap(int[] height) {
-        int result = 0;
+        //water trapped at any point is the minimum of maxLeft and maxRight at that point minus height of that bar
+        if(height == null || height.length == 0) return 0;
 
+        int left = 0; int right = height.length -1;
+        int maxLeft = 0; int maxRight = 0;
 
+        int totalAmount = 0;
 
-        return result;
+        while(left < right){
+            if(height[left] < height[right]){
+                if(height[left] >= maxLeft){
+                    maxLeft = height[left];
+                }else{
+                    totalAmount += maxLeft - height[left];
+
+                }
+                left++;
+
+            }else{
+                if(height[right] >= maxRight){
+                    maxRight = height[right];
+                }else{
+                    totalAmount += maxRight - height[right];
+
+                }
+                right--;
+            }
+        }
+        return totalAmount;
     }
 }

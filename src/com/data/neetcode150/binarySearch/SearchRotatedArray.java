@@ -2,7 +2,7 @@ package com.data.neetcode150.binarySearch;
 
 public class SearchRotatedArray {
     public static void main(String[] args) {
-        int[] nums = {};
+        int[] nums = {4,5,6,7,0,1,2};
         int target = 0;
         System.out.println(searchArray(nums, target));
     }

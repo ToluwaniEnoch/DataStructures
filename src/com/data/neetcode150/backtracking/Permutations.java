@@ -12,15 +12,6 @@ public class Permutations {
 
     public static void permute (int[] nums){
 
-//        List<int[]> numList = Arrays.asList(nums);
-//        if(nums.length == 1){
-//           return numList;
-//       }
-//
-//
-//       for(int i=0; i<numList.size(); i++){
-//           int n = numList.remove(0);
-//       }
     }
 
 

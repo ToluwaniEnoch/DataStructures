@@ -1,0 +1,11 @@
+
+^
+java:S1192"HDefine a constant instead of duplicating this literal "/search" 5 times.(º·‹Ê
+a
+java:S1192"FDefine a constant instead of duplicating this literal "/cart" 3 times.(›Í¬úÿÿÿÿ
+c
+java:S1192"HDefine a constant instead of duplicating this literal "/detail" 3 times.(²ÿ‘«şÿÿÿÿ
+y
+java:S14884"^Immediately return this expression instead of assigning it to the temporary variable "detail".(ĞŸ¡–ÿÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùõêªşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(üûÊğ

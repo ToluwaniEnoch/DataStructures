@@ -1,0 +1,13 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ï©Ýèùÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ï©Ýèùÿÿÿÿ
+…
+java:S1319"jThe type of "_neighbors" should be an interface such as "List" rather than the implementation "ArrayList".(úì‡µûÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ—Ÿ“
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úì‡µûÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úì‡µûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùõêªþÿÿÿÿ
+S
+java:S1128"=Remove this unused import 'com.data.neetcode150.graph.GNode'.(ì¡¨Ÿ

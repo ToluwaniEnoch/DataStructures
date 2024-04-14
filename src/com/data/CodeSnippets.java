@@ -1,6 +1,34 @@
 package com.data;
 
+import com.data.voidInvoices.Payload;
+import com.google.gson.GsonBuilder;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class CodeSnippets {
+    public static void main(String[] args) {
+        testGson();
+    }
+
+    public static void testGson(){
+//        Payload payload = new Payload("1321312", "VERIFIED");
+
+//        log.info("Gson Payload {} ", new GsonBuilder().setPrettyPrinting().create().toJson(businessRequestDto));
+
+//        new GsonBuilder().setPrettyPrinting().create().toJson()
+        ArrayList<String> possibleValues = new ArrayList<>();
+        possibleValues.add("ADMIN");
+        possibleValues.add("SUPPLIER");
+        possibleValues.add("BUYER");
+        possibleValues.add(null);
+
+
+        System.out.println("contains :: " + possibleValues.contains("ADMIN"));
+
+        System.out.println("stream :: " + possibleValues.stream().anyMatch(a -> a.equals("ADMIN")));
+
+    }
 
     /*
     calculates hypotenuse of a,b while dealing with overflow and underflow

@@ -1,0 +1,33 @@
+
+a	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ùµ¡D
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ìóşàùÿÿÿÿ
+S
+java:S1854 "8Remove this useless assignment to local variable "size".(İÓÄ–øÿÿÿÿ
+S
+java:S1854"8Remove this useless assignment to local variable "peek".(òı—«úÿÿÿÿ
+M
+java:S1854"7Remove this useless assignment to local variable "map".(‹¦©
+O
+java:S1854"9Remove this useless assignment to local variable "peek1".(œÛÀº
+O
+java:S1854"9Remove this useless assignment to local variable "queue".(Òñâì
+V
+java:S1854";Remove this useless assignment to local variable "minheap".(µù¡¦úÿÿÿÿ
+O
+java:S1854"9Remove this useless assignment to local variable "desc2".(ô¹‰‰
+Q	java:S125
+"<This block of commented-out lines of code should be removed.(†¬Ó
+@
+java:S1481"*Remove this unused "desc2" local variable.(ô¹‰‰
+G
+java:S1481",Remove this unused "minheap" local variable.(µù¡¦úÿÿÿÿ
+@
+java:S1481"*Remove this unused "queue" local variable.(Òñâì
+@
+java:S1481"*Remove this unused "peek1" local variable.(œÛÀº
+>
+java:S1481"(Remove this unused "map" local variable.(‹¦©
+D
+java:S1481")Remove this unused "peek" local variable.(òı—«úÿÿÿÿ
+D
+java:S1481 ")Remove this unused "size" local variable.(İÓÄ–øÿÿÿÿ

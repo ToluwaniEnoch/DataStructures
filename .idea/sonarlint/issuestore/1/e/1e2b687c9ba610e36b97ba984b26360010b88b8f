@@ -1,0 +1,8 @@
+
+c
+java:S3824"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(Ó‘¬Ÿþÿÿÿÿ
+M
+java:S1854	"7Remove this useless assignment to local variable "map".(î›Ç•
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ïÆ÷¶
+>
+java:S1481	"(Remove this unused "map" local variable.(î›Ç•

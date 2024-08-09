@@ -1,0 +1,6 @@
+predicate accepts one input and returns a boolean value
+function accepts one argument and returns one result
+bi-function takes 2 arguments and returns one result
+consumer accepts one argument but returns nothing
+bi-consumer accepts two inputs and returns nothing
+supplier represents a supplier of results
